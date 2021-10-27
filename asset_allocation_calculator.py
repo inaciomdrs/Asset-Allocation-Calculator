@@ -14,17 +14,17 @@ MONTHS = [f"0{i}" if i < 10 else str(i) for i in range(1, 13)]
 
 MONTHS_NAMES = [
     "Jan",
-    "Fev",
+    "Feb",
     "Mar",
-    "Abr",
-    "Mai",
+    "Apr",
+    "May",
     "Jun",
     "Jul",
     "Ago",
-    "Set",
-    "Out",
+    "Sep",
+    "Oct",
     "Nov",
-    "Dez",
+    "Dec",
 ]
 
 
