@@ -85,7 +85,7 @@ last day.
 
 Theses percentual numbers are then grouped by month (for example,
 there will be a group of percentual variations for January from each year, another
-one for February etc.), ordered by year. Next, (Mathematical Expectation)[https://www.quora.com/How-can-we-find-a-mathematical-expectation-for-a-trading-strategy], (Maximum Drawdown)[https://www.investopedia.com/terms/m/maximum-drawdown-mdd.asp] and (Kelly Criterion)[https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/kelly-criterion/] (among other metrics) are calculated for each group.
+one for February etc.), ordered by year. Next, [Mathematical Expectation](https://www.quora.com/How-can-we-find-a-mathematical-expectation-for-a-trading-strategy), [Maximum Drawdown](https://www.investopedia.com/terms/m/maximum-drawdown-mdd.asp) and [Kelly Criterion](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/kelly-criterion/) (among other metrics) are calculated for each group.
 
 
 **Step 3: Percentages definition**
