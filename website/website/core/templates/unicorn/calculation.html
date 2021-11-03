@@ -1,0 +1,14 @@
+<div>
+    <form unicorn:submit.prevent="calculate">
+        <textarea id="" unicorn:model.defer="input_data" cols="30" rows="10" />
+        <input type="submit" value="Calculate" />
+    </form>
+
+    <ul>
+        {% for asset in data %}
+            <li>{{ asset.name }} - {{ asset.percentage }}</li>
+        {% endfor %}
+    </ul>
+
+
+</div>
