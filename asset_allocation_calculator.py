@@ -144,9 +144,11 @@ def evaluate_returns(data):
 
 
 def backtest(data, base_col="month", ref_cols=MONTHS):
+    default_series = pd.Series(np.zeros(20,))
+
     return pd.DataFrame(
         [
-            evaluate_returns(((get_returns(data, base_col=base_col))[col], 12, 1))
+            evaluate_returns(((get_returns(data, base_col=base_col)).get(col, default_series), 12, 1))
             for col in ref_cols
         ],
         index=ref_cols,
